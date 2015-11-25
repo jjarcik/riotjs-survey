@@ -6,7 +6,7 @@
     <survey-list list="{ opts.list }"></survey-list>
     
     <!-- wait for download data from git -->
-    <img src="img/spinner.gif" class="{invisible:load}" alt="spinner"/>
+    <img src="img/spinner.gif" class="{ invisible:load }" alt="spinner"/>
 
     <script>
 

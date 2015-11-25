@@ -2,7 +2,7 @@
     
     <a href="#home">Home</a>
     
-    <h1>Result of { opts.survey.nazev }</h1>
+    <h1>Result of: { opts.survey.nazev }</h1>
 
     <ul id="result">
         <li each='{item, i in opts.answers }' index="{ i }">            
@@ -11,6 +11,8 @@
         </li>              
     </ul>
 
+    <a href="#survey/{ opts.surveyID }">[ Add next vote ]</a>
+    
     <script>
 
         this.on('mount', function () {
